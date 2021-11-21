@@ -1,0 +1,60 @@
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+input[type=image]:focus,
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus,
+btn:focus,
+btn:focus-visible 
+[contenteditable].form-control:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold !important;
+}
+
+p {
+    font-size:20px !important;
+}
+
+h1 {
+    font-size:56px !important;
+    line-height: 61.6px !important;
+}
+
+h2 {
+    font-size:48px;
+    line-height: 52.8px;
+}
+
+h3 {
+    font-size:40px;
+    line-height: 44px;
+}
+
+h4 {
+    font-size:32px;
+    line-height: 35.2px;
+}
+
+h5 {
+    font-size:24px;
+    line-height: 26.2px;
+}
+
+h6 {
+    font-size:20px;
+    line-height: 22px;
+}
