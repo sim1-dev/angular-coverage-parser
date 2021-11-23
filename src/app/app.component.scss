@@ -17,6 +17,11 @@ btn:focus-visible
   outline: none !important;
 }
 
+input[type=file], /* FF, IE7+, chrome (except button) */
+input[type=file]::-webkit-file-upload-button { /* chromes and blink button */
+    cursor: pointer !important; 
+}
+
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -58,3 +63,29 @@ h6 {
     font-size:20px;
     line-height: 22px;
 }
+
+@media (max-width: 768px) { 
+    h1 {
+        font-size:45px !important;
+        line-height: 61.6px !important;
+    }
+    
+    h2 {
+        font-size:32px;
+        line-height: 52.8px;
+    }
+    
+    h3 {
+        font-size:40px;
+        line-height: 44px;
+    }
+    
+    .responsive-center {
+        margin:0 auto;
+    }
+
+    .navbar {
+        margin-bottom:20px;
+    }
+
+ }
