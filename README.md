@@ -2,7 +2,9 @@
 
 Google Chrome Coverage Tab File parser. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
-[Live Demo](https://parser.simonetenisci.it/)
+[Live Demo - Click Here](https://parser.simonetenisci.net/)
+
+
 
 ## Development server
 
