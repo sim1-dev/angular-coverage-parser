@@ -1,6 +1,6 @@
 # Angular Coverage Parser (CSS Purifier)
 
-[Official website](https://parser.simonetenisci.net/)
+[Official website](https://parser.simonetenisci.it/)
 
 Google Chrome Coverage Tab File parser. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
